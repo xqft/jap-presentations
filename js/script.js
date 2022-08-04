@@ -1,3 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
-    document.getElementById("intro").innerHTML = "Somos un gran equipo";
+    const username = prompt("¿Cuál es tu nombre?");
+    const username_span = document.querySelector("#username");
+    
+    username_span.innerHTML = username;
+    
 })
